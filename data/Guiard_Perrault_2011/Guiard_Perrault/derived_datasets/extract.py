@@ -68,8 +68,8 @@ for _file in _files:
         speed_accuracy_instruction + "_" + block_number
     ] = container
 
-    # self = movements
-    # # self.check_segmentation()
-    # if numpy.random.random() > 0.8:
-    #     self.check_segmentation()
-    #     plt.show()
+
+import json
+
+with open("segmented_data.json", "w") as _file:
+    json.dump(participant_container, _file)
