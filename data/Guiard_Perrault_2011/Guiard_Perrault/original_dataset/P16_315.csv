@@ -1,0 +1,14 @@
+Experiment parameters :
+Instruction;Be both fast and precise
+Block number;4
+D screen value (in mm);150
+D screen value (in pixels);564.705882
+DC Gain;1.000000
+Duration (in s);0
+Screen offset (in mm);95
+Tablet offset (in mm);39
+Tablet start line (in dots);3859
+Tablet target line (in dots);18703
+Screen start line (pixels);357
+
+Time (in s);X tablet (in dots);Y tablet (in dots);X screen (mm);Pressure;TiltX;TiltY;Distance;Stylus;Upper Button;Lower Button;Puck Left Button;Puck Right Button;Puck Wheel;Puck Wheel Up;Puck Wheel Down;Puck Extra Left;Puck Extra Right;X screen (pixels);X screen corrected (mm)

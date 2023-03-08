@@ -8,8 +8,7 @@ import matplotlib.pyplot as plt
 
 original_dataset_directory = pathlib.Path(__file__).resolve().parents[1]
 
-FOLDER = "original_dataset"
-# FOLDER = "recursion_error"
+FOLDER = "original_clean_dataset"
 
 
 _files = os.listdir(str((original_dataset_directory / FOLDER).resolve()))
@@ -61,9 +60,9 @@ for _file in _files:
         stop_params={"thresh": 1e-2},
     )
     container = package(movements, reciprocal=False, json_serializable=True)
-    container.update(
-        {"Instruction": speed_accuracy_instruction, "Block number": block_number}
-    )
+    # container.update(
+    #     {"Instruction": speed_accuracy_instruction, "Block number": block_number}
+    # )
     participant_container[participant][
         speed_accuracy_instruction + "_" + block_number
     ] = container
